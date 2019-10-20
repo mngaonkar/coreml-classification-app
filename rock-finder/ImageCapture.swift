@@ -20,7 +20,6 @@ struct ImageCapture: UIViewControllerRepresentable {
     }
     
     func updateUIViewController(_ uiViewController: ImageCapture.UIViewControllerType, context: UIViewControllerRepresentableContext<ImageCapture>) {
-        
     }
     
 }
