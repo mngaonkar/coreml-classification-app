@@ -13,6 +13,8 @@
 		8F1F2C7B235B94330054AFCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F2C7A235B94330054AFCD /* Assets.xcassets */; };
 		8F1F2C7E235B94330054AFCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F2C7D235B94330054AFCD /* Preview Assets.xcassets */; };
 		8F1F2C81235B94330054AFCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1F2C7F235B94330054AFCD /* LaunchScreen.storyboard */; };
+		8F1F2C8B235C51170054AFCD /* ImageCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F2C8A235C51170054AFCD /* ImageCapture.swift */; };
+		8F1F2C8D235CA57A0054AFCD /* rock-data.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F2C8C235CA57A0054AFCD /* rock-data.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8F1F2C7D235B94330054AFCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8F1F2C80235B94330054AFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F1F2C82235B94330054AFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1F2C8A235C51170054AFCD /* ImageCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCapture.swift; sourceTree = "<group>"; };
+		8F1F2C8C235CA57A0054AFCD /* rock-data.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "rock-data.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				8F1F2C7F235B94330054AFCD /* LaunchScreen.storyboard */,
 				8F1F2C82235B94330054AFCD /* Info.plist */,
 				8F1F2C7C235B94330054AFCD /* Preview Content */,
+				8F1F2C8A235C51170054AFCD /* ImageCapture.swift */,
+				8F1F2C8C235CA57A0054AFCD /* rock-data.mlmodel */,
 			);
 			path = "rock-finder";
 			sourceTree = "<group>";
@@ -146,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F1F2C8B235C51170054AFCD /* ImageCapture.swift in Sources */,
 				8F1F2C75235B942D0054AFCD /* AppDelegate.swift in Sources */,
 				8F1F2C77235B942D0054AFCD /* SceneDelegate.swift in Sources */,
+				8F1F2C8D235CA57A0054AFCD /* rock-data.mlmodel in Sources */,
 				8F1F2C79235B942D0054AFCD /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
